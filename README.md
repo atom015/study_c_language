@@ -25,12 +25,12 @@ int main(){
     int arr[5] = {1,2,3,4,5};
     for (int i = 0; i < 5; i++){
     	printf("%d ",arr[i]);
-	}
-	printf("\n");
-	fill(arr,arr+5,5); // 첫번째위치부터 마지막위치까지 5로 채워준다. 
-	for (int i = 0; i < 5; i++){
-    	printf("%d ",arr[i]);
-	}
+    }
+    printf("\n");
+    fill(arr,arr+5,5); // 첫번째위치부터 마지막위치까지 5로 채워준다. 
+    for (int i = 0; i < 5; i++){
+       printf("%d ",arr[i]);
+    }
     return 0;
 }
 ```
