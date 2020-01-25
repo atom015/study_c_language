@@ -17,8 +17,8 @@ int main(){
 
 ### 배열안을 다 5로채우기
 ```
-#include <iostream>
-#include <algorithm>
+#include<iostream>
+#include<stdio.h> 
 using namespace std;
 
 int main(){
