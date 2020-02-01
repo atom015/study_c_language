@@ -72,3 +72,21 @@ int main(){
     return 0;
 }
 ```
+
+### 백준 c++ 유의할점,기억할점.
+#### 1.이차원 배열 매개변수 받는법
+```
+#include<iostream>
+#include<stdio.h> 
+using namespace std;
+
+int func(int arr[][5]){ // 일차원 배열받는 방식에서 이차원의가로길이를 추가해준다.
+    return arr[0][0];
+}
+
+int main(){
+    int arr[5][5];
+    func(arr)
+}
+```
+#### 2. 백준 테스트케이스를 실행시켰는데 답이 음수가 아닌데 음수가나오면 오버플로우다.
