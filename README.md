@@ -35,3 +35,40 @@ int main(){
 }
 ```
 #### fill(첫위치,마지막위치,채울값);
+
+### c++ 백준 실수하지 말아야 할것.
+
+#### 안좋은예
+```
+
+#include<iostream>
+#include<stdio.h> 
+using namespace std;
+
+int main(){
+    bool v[500];
+    if (v[0] == false){
+        printf("1");
+    }else{
+        printf("0");
+    }
+    return 0;
+}
+
+```
+#### 좋은예
+```
+#include<iostream>
+#include<stdio.h> 
+using namespace std;
+
+int main(){
+    bool v[500] = {false,};
+    if (v[0] == false){
+        printf("1");
+    }else{
+        printf("0");
+    }
+    return 0;
+}
+```
