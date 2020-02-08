@@ -92,3 +92,23 @@ int main(){
 #### 2. 백준 테스트케이스를 실행시켰는데 답이 음수가 아닌데 음수가나오면 오버플로우다.
 #### 3. C++ 배열크기를 나름(?) 넉넉하게 잡아야한다.
 #### 4.auto는 자동으로 자료형을 정해주는 키워드이다.
+#### 5.변수 타입확인하는법.
+```
+#include <iostream>
+#include <stdio.h>
+#include <typeinfo>
+using namespace std;
+
+
+
+int main(){
+	bool a;
+	cout << typeid(a).name();
+	int a;
+	cout << typeid(a).name();
+	float a;
+	cout << typeid(a).name();
+	char a;
+	cout << typeid(a).name();
+}
+```
