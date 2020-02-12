@@ -112,3 +112,4 @@ int main(){
 	cout << typeid(a).name();
 }
 ```
+#### 6. cin으로 입력받는것보다 scanf가 더 시간이 적게걸린다.
